@@ -83,3 +83,5 @@
 {"level":"info","message":"Posts obtidos com sucesso"}
 {"level":"info","message":"Posts obtidos com sucesso"}
 {"error":{},"level":"error","message":"Falha ao obter posts"}
+{"error":{},"level":"error","message":"Falha ao obter post com slug","slug":"sass-simplificando-o-cssd"}
+{"error":{},"level":"error","message":"Falha ao obter post com slug","slug":"fhfh"}

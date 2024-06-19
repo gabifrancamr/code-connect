@@ -1,5 +1,3 @@
-// npm i -g json-server@1.0.0-alpha.22 npx json-server posts.json --watch -p 3842
-
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
