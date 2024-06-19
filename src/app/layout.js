@@ -1,4 +1,4 @@
-import { Prompt } from 'next/font/google'
+import { Prompt } from "next/font/google";
 
 import { Aside } from "@/components/Aside";
 import "./globals.css";
@@ -9,10 +9,10 @@ export const metadata = {
 };
 
 const prompt = Prompt({
-  weight: ['400', '600'],
-  subsets: ['latin'],
-  display: 'swap'
-})
+  weight: ["400", "600"],
+  subsets: ["latin"],
+  display: "swap",
+});
 
 export default function RootLayout({ children }) {
   return (
@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
       <body>
         <div className="app-container">
           <Aside />
-          {children}
+          <div className="main-content">{children}</div>
         </div>
       </body>
     </html>
