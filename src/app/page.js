@@ -10,6 +10,7 @@ async function getAllPosts(page) {
   );
   if (!response.ok) {
     logger.error("Ops, alguma coisa correu mal");
+    return []
   }
   logger.info("Posts obtidos com sucesso");
   return response.json();
