@@ -7,10 +7,10 @@ import { Heading } from '@/components/Heading'
 
 const NotFound = () => {
   return (
-    <div className={style.container}>
+    <div className={styles.container}>
         <Image src={image404} alt="Imagem de post não encontrado" />
         <Heading>Ops, página não encontrado!</Heading>
-        <p className={style.text}>você pode voltar ao feed e continuar buscando projetos incríveis</p>
+        <p className={styles.text}>você pode voltar ao feed e continuar buscando projetos incríveis</p>
         <Link href="/">
             <span>Voltar ao feed</span> <ArrowBack color='#81FE88' />
         </Link>
