@@ -5,6 +5,8 @@ import Link from 'next/link'
 import { ArrowBack } from '@/components/Icons/ArrowBack'
 import { Heading } from '@/components/Heading'
 
+// not found component
+
 const NotFound = () => {
   return (
     <div className={styles.container}>
